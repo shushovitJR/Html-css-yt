@@ -17,7 +17,9 @@
 <body>
     <header class="header">
         <div class="left_sec">
+            <button class="menu" id="myMenu" onclick="togglemenu()">
             <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+        </button>
             <img class="youtube-logo" src="/icons/youtube-logo.svg">
         </div>
         <div class="middle_sec">
@@ -48,7 +50,7 @@
             <img src="/channel_photo/my-channel.jpeg" class="mychannel-picture">
         </div>
     </header>
-    <nav class="sidebar">
+    <nav class="sidebar" id="mySidebar">
         <div class="sidebar-link"><img src="/icons/home.svg">
         <div class="sidebar-link-text">Home</div></div>
         <div class="sidebar-link"><img src="/icons/explore.svg" alt="">
@@ -64,7 +66,7 @@
     </nav>
     <main>
     <!1st vid>
-    <section class="vid-grid">
+    <section id="myGrid" class="vid-grid">
     <div class="vid-preview">
         <div class="thumbnail-row">
             <img class ="thumbnail" src="/thumbnail/thumbnail-1.webp">
@@ -284,6 +286,6 @@
 
 
     
-    
+    <script src="yt.js"></script>
 </body>
 </html>

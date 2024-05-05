@@ -2,11 +2,12 @@
     position: fixed;
     left: 0px;
     bottom: 0px;
-    top:50px;
-    width: 74px;
+    top:8.6%;
+    width: 10%;
     background-color: white;
     z-index:250;
     padding-top: 5px;
+    display: inline;
 }
 .sidebar-link{
     height: 76px;

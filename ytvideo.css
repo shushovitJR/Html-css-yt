@@ -2,10 +2,12 @@
 
 
 .vid-grid{
-    margin-top: 52px;
-    margin-left: 74px;
-    height: 100vh;
-    padding: 20px;
+    width: 100%;
+    margin: 0 0 0 10%;
+    
+    padding-top: 12vh;
+    padding-left: 2.5%;
+    padding-right: 2%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
@@ -27,6 +29,9 @@
     .vid-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+.vid-preview{
+    /* padding: 20px; */
 }
 .thumbnail{
     width:100%;
